@@ -56,12 +56,12 @@ module.exports = (Sequelize) => {
                 {
                     name: 'PRIMARY',
                     unique: true,
-                    field: [{ name: 'id' }],
+                    fields: [{ name: 'id' }],
                 },
                 {
                     name: 'ccWithDate',
                     unique: true,
-                    field: [{ name: 'cc' }],[{ name: 'date' }],
+                    fields: [{ name: 'cc' }, { name: 'date' }],
                 },
 
             ],
